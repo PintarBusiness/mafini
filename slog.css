@@ -1,0 +1,151 @@
+@font-face
+        {
+            font-family: Poppins;
+            src: url(Poppins-Regular.ttf);
+        }
+
+        @font-face
+        {
+            font-family: Poppins-Bold;
+            src: url(Poppins-Bold.ttf);
+        }
+
+        html
+        {
+            font-size: 0.8vw;
+        }
+
+
+        *
+        {
+            font-family: Poppins;
+        }
+
+        body
+        {
+            margin: 0;
+            padding: 0;
+        }
+
+        h1, h2
+        {
+            font-family: Poppins-Bold;
+            color: #DE7A01;
+        }
+
+        .vsebina
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .vsebina h1
+        {
+            margin: 0;
+            padding-top: 1em;
+            padding-bottom: 0.5em;
+            font-size: 2.5em;
+        }
+
+        .vsebina h2
+        {
+            font-size: 2em;
+            margin-bottom: 0em;
+        }
+
+        .vsebina p
+        {
+            font-size: 1.1em;
+        }
+
+        .vsebina .poravnava
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10em;
+        }
+
+        .vsebina .poravnava img
+        {
+            width: 35em;
+            border-radius: 2em;
+        }
+
+        .vsebina .poravnava .levo
+        {
+            max-width: fit-content;
+        }
+
+        .vsebina .poravnava .desno
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 1em;
+            max-width: 50%;
+        }
+
+        .vsebina ul li
+        {
+            color: #DE7A01;
+        }
+
+        .vsebina ul li span
+        {
+            color: black;
+        }
+
+        .vsebina .naroci a
+        {
+            margin-top: 2em;
+            text-decoration: none;
+            border: solid 0.2em #DE7A01;
+            border-radius: 2em;
+            color: #DE7A01;
+            padding: 0.8em 2em;
+            transition: all 1s;
+            font-family: Poppins-Bold;
+            letter-spacing: 0.05em;
+        }
+
+        .vsebina .naroci
+        {
+            display: flex;
+        }
+
+        .vsebina .naroci a:hover
+        {
+            scale: 1.1;
+            background-color: #DE7A01;
+            color: white;
+        }
+
+        footer
+        {
+            background-color: #DE7A01;
+            width: 100%;
+        }
+
+        footer .noga ul
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5em;
+            list-style-type: none;
+        }
+
+        footer .noga ul li
+        {
+            color: white;
+        }
+
+        footer a
+        {
+            text-decoration: none;
+            color: white;
+        }
