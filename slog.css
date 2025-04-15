@@ -1,228 +1,341 @@
 @font-face
-        {
-            font-family: Poppins;
-            src: url(Poppins-Regular.ttf);
-        }
+{
+    font-family: Poppins;
+    src: url(Poppins-Regular.ttf);
+}
 
-        @font-face
-        {
-            font-family: Poppins-Bold;
-            src: url(Poppins-Bold.ttf);
-        }
+@font-face
+{
+    font-family: Poppins-Bold;
+    src: url(Poppins-Bold.ttf);
+}
 
-        html
-        {
-            font-size: 0.8vw;
-        }
-
-
-        *
-        {
-            font-family: Poppins;
-            margin: 0;
-            padding: 0;
-        }
-
-        body
-        {
-            margin: 0;
-            padding: 0;
-        }
-
-        h1
-        {
-            font-size: 2.5em;
-            font-family: Poppins-Bold;
-            color: #DE7A01;
-        }
-
-        h2
-        {
-            font-size: 2em;
-            padding-bottom: 1em;
-            font-family: Poppins-Bold;
-            color: #DE7A01;
-        }
-
-        h3
-        {
-            font-size: 1.5em;
-            padding-bottom: 0.5em;
-            font-family: Poppins-Bold;
-            color: #DE7A01;
-        }
-
-        p
-        {
-            font-size: 1.1em;
-            margin-bottom: 1em;
-        }
-
-        p:nth-child(4)
-        {
-            margin-bottom: 0;
-        }
-
-        .vsebina
-        {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            gap: 4em;
-            height: 100vh;
-        }
-
-        .vsebina .poravnava
-        {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 10em;
-        }
-
-        .vsebina .poravnava img
-        {
-            width: 30em;
-            border-radius: 2em;
-        }
-
-        .vsebina .poravnava .levo
-        {
-            max-width: fit-content;
-        }
-
-        .vsebina .poravnava .desno
-        {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            gap: 1em;
-            max-width: 50%;
-        }
-
-        .vsebina .naroci a
-        {
-            text-decoration: none;
-            border: solid 0.2em #DE7A01;
-            border-radius: 2em;
-            color: #DE7A01;
-            padding: 0.8em 2em;
-            transition: all 1s;
-            font-family: Poppins-Bold;
-            letter-spacing: 0.05em;
-        }
-
-        .vsebina .naroci
-        {
-            display: flex;
-        }
-
-        .vsebina .naroci a:hover
-        {
-            scale: 1.1;
-            background-color: #DE7A01;
-            color: white;
-        }
+html
+{
+    font-size: 0.8vw;
+}
 
 
+*
+{
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+}
 
-        .poravnavadva
-        {
-            height: 93vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
+body
+{
+    margin: 0;
+    padding: 0;
+}
 
-        .receptpriprava
-        {
-            display: flex;
-            justify-content: center;
-            gap: 10em;
-        }
+h1
+{
+    font-size: 2.5em;
+    font-family: Poppins-Bold;
+    color: #DE7A01;
+}
 
-        .receptpriprava img
-        {
-            width: 15em;
-            border-radius: 2em;
-        }
+h2
+{
+    font-size: 2em;
+    padding-bottom: 1em;
+    font-family: Poppins-Bold;
+    color: #DE7A01;
+}
 
-        .recept
-        {
-            display: flex;
-            flex-direction: column;
-        }
+h3
+{
+    font-size: 1.5em;
+    padding-bottom: 0.5em;
+    font-family: Poppins-Bold;
+    color: #DE7A01;
+}
 
-        .receptnotri
-        {
-            display: flex;
-            gap: 5em;
-        }
+p
+{
+    font-size: 1.1em;
+    margin-bottom: 1em;
+}
 
-        .prvidel
-        {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            gap: 6em;
-        }
+p:nth-child(4)
+{
+    margin-bottom: 0;
+}
 
-        .drugidel
-        {
-            display: flex;
-            flex-direction: column;
-            gap: 8em;
-        }
+.vsebina
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+    height: 100vh;
+}
 
-        ul li
-        {
-            color: #DE7A01;
-        }
+.vsebina .poravnava
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10em;
+}
 
-        ul li span
-        {
-            color: black;
-        }
+.vsebina .poravnava img
+{
+    width: 30em;
+    border-radius: 2em;
+}
 
-        .receptdel ul
-        {
-            list-style-position: inside;
-        }
+.vsebina .poravnava .levo
+{
+    max-width: fit-content;
+}
 
-        .priprava
-        {
-            max-width: 40%;
-        }
+.vsebina .poravnava .desno
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    max-width: 50%;
+}
+
+.vsebina .naroci a
+{
+    text-decoration: none;
+    border: solid 0.2em #DE7A01;
+    border-radius: 2em;
+    color: #DE7A01;
+    padding: 0.8em 2em;
+    transition: all 1s;
+    font-family: Poppins-Bold;
+    letter-spacing: 0.05em;
+}
+
+.vsebina .naroci
+{
+    display: flex;
+}
+
+.vsebina .naroci a:hover
+{
+    scale: 1.1;
+    background-color: #DE7A01;
+    color: white;
+}
 
 
-        
-        footer
-        {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-color: #DE7A01;
-            height: 7vh;
-            width: 100%;
-        }
 
-        footer .noga ul
-        {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 5em;
-            list-style-type: none;
-        }
+.poravnavadva
+{
+    height: 93vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-        footer .noga ul li
-        {
-            color: white;
-        }
+.receptpriprava
+{
+    display: flex;
+    justify-content: center;
+    gap: 10em;
+}
 
-        footer a
-        {
-            text-decoration: none;
-            color: white;
-        }
+.receptpriprava img
+{
+    width: 15em;
+    border-radius: 2em;
+}
+
+.recept
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.receptnotri
+{
+    display: flex;
+    gap: 5em;
+}
+
+.prvidel
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6em;
+}
+
+.drugidel
+{
+    display: flex;
+    flex-direction: column;
+    gap: 8em;
+}
+
+ul li
+{
+    color: #DE7A01;
+}
+
+ul li span
+{
+    color: black;
+}
+
+.receptdel ul
+{
+    list-style-position: inside;
+}
+
+.priprava
+{
+    max-width: 40%;
+}
+
+
+
+footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #DE7A01;
+    height: 7vh;
+    width: 100%;
+}
+
+footer .noga ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+    list-style-type: none;
+}
+
+footer .noga ul li
+{
+    color: white;
+}
+
+footer a
+{
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 480px)
+{
+
+    h1
+    {
+        text-align: center;
+        font-size: 10em;
+    
+    }
+
+    h2
+    {
+        font-size: 8em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    h3
+    {
+        font-size: 6.5em;
+    }
+
+    p
+    {
+        font-size: 6em;
+    }
+
+    .vsebina .naroci a
+    {
+        font-size: 4em;
+        margin-top: 2em;
+    }
+
+    ul li span
+    {
+        font-size: 6em;
+    }
+
+    .vsebina
+    {
+        gap: 2em;
+        padding: 2em 0;
+        height: auto;
+    }
+
+    .vsebina .poravnava
+    {
+        flex-direction: column;
+        gap: 2em;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .vsebina .poravnava img
+    {
+        width: 100%;
+    }
+
+    .vsebina .poravnava .desno
+    {
+        max-width: 100%;
+    }
+
+    .poravnavadva
+    {
+        height: auto;
+        padding: 2em 0;
+    }
+
+    .receptpriprava
+    {
+        flex-direction: column;
+        gap: 3em;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .receptnotri
+    {
+        flex-direction: column;
+        gap: 3em;
+    }
+
+    .prvidel, .drugidel
+    {
+        gap: 3em;
+    }
+
+    .receptpriprava img
+    {
+        width: 100%;
+    }
+
+    .priprava
+    {
+        max-width: 100%;
+        padding: 0 1em;
+    }
+
+    footer .noga ul
+    {
+        font-size: 2.5em;
+        gap: 1em;
+    }
+
+    footer
+    {
+        height: auto;
+        padding: 5em 0;
+    }
+
+}
