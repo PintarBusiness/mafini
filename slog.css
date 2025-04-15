@@ -19,6 +19,8 @@
         *
         {
             font-family: Poppins;
+            margin: 0;
+            padding: 0;
         }
 
         body
@@ -27,38 +29,48 @@
             padding: 0;
         }
 
-        h1, h2
+        h1
         {
+            font-size: 2.5em;
             font-family: Poppins-Bold;
             color: #DE7A01;
+        }
+
+        h2
+        {
+            font-size: 2em;
+            padding-bottom: 1em;
+            font-family: Poppins-Bold;
+            color: #DE7A01;
+        }
+
+        h3
+        {
+            font-size: 1.5em;
+            padding-bottom: 0.5em;
+            font-family: Poppins-Bold;
+            color: #DE7A01;
+        }
+
+        p
+        {
+            font-size: 1.1em;
+            margin-bottom: 1em;
+        }
+
+        p:nth-child(4)
+        {
+            margin-bottom: 0;
         }
 
         .vsebina
         {
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
+            gap: 4em;
             height: 100vh;
-        }
-
-        .vsebina h1
-        {
-            margin: 0;
-            padding-top: 1em;
-            padding-bottom: 0.5em;
-            font-size: 2.5em;
-        }
-
-        .vsebina h2
-        {
-            font-size: 2em;
-            margin-bottom: 0em;
-        }
-
-        .vsebina p
-        {
-            font-size: 1.1em;
         }
 
         .vsebina .poravnava
@@ -71,7 +83,7 @@
 
         .vsebina .poravnava img
         {
-            width: 35em;
+            width: 30em;
             border-radius: 2em;
         }
 
@@ -89,19 +101,8 @@
             max-width: 50%;
         }
 
-        .vsebina ul li
-        {
-            color: #DE7A01;
-        }
-
-        .vsebina ul li span
-        {
-            color: black;
-        }
-
         .vsebina .naroci a
         {
-            margin-top: 2em;
             text-decoration: none;
             border: solid 0.2em #DE7A01;
             border-radius: 2em;
@@ -124,9 +125,85 @@
             color: white;
         }
 
+
+
+        .poravnavadva
+        {
+            height: 93vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .receptpriprava
+        {
+            display: flex;
+            justify-content: center;
+            gap: 10em;
+        }
+
+        .receptpriprava img
+        {
+            width: 15em;
+            border-radius: 2em;
+        }
+
+        .recept
+        {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .receptnotri
+        {
+            display: flex;
+            gap: 5em;
+        }
+
+        .prvidel
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 6em;
+        }
+
+        .drugidel
+        {
+            display: flex;
+            flex-direction: column;
+            gap: 8em;
+        }
+
+        ul li
+        {
+            color: #DE7A01;
+        }
+
+        ul li span
+        {
+            color: black;
+        }
+
+        .receptdel ul
+        {
+            list-style-position: inside;
+        }
+
+        .priprava
+        {
+            max-width: 40%;
+        }
+
+
+
         footer
         {
+            display: flex;
+            align-items: center;
+            justify-content: center;
             background-color: #DE7A01;
+            height: 7vh;
             width: 100%;
         }
 
