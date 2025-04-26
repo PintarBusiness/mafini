@@ -92,6 +92,22 @@ p:nth-child(4)
     max-width: fit-content;
 }
 
+.vsebina .poravnava .levo h3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin-top: 1em;
+}
+
+.vsebina .poravnava .levo h3 span
+{
+    color: black;
+    font-size: 0.9em;
+    font-weight:300;
+}
+
 .vsebina .poravnava .desno
 {
     display: flex;
@@ -139,12 +155,13 @@ p:nth-child(4)
 {
     display: flex;
     justify-content: center;
-    gap: 10em;
+    align-items: center;
+    gap: 23em;
 }
 
 .receptpriprava img
 {
-    width: 15em;
+    width: 30em;
     border-radius: 2em;
 }
 
